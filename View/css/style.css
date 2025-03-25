@@ -1,0 +1,117 @@
+
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    color: #404040;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Usar min-height para garantir que o body ocupe pelo menos a altura da tela */
+    background-color: rgba(4, 83, 57, 0.425);
+    background-image: url(imagem-fundo.png);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center; /* Centraliza o texto dentro do título */
+}
+
+.form {
+    padding: 50px;
+    background-color: rgb(176, 247, 223);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+    max-width: 400px; /* Define uma largura máxima para o formulário */
+    width: 100%; /* Faz o formulário ocupar 100% da largura disponível */
+}
+
+.barra-horizontal {
+    background-color: rgb(32, 226, 145);
+    height: 5px;
+    width: 100%; /* Faz a barra ocupar 100% da largura do container */
+}
+
+.campo-input {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.lembrar {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center; /* Centraliza os itens verticalmente */
+}
+
+.button {
+    padding: 10px;
+    align-self: center;
+    width: 160px;
+    border-radius: 30px;
+    background-image: linear-gradient(#0b9c64, #6fe6be);
+    border: solid 1px #4acca5;
+    border-right-width: 4px;
+    border-bottom-width: 4px;
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer; /* Adiciona um cursor pointer para indicar que é clicável */
+}
+
+input {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f1f1f1;
+    width: 100%; /* Faz o input ocupar 100% da largura do container */
+}
+
+a {
+    color: rgb(0, 174, 255);
+    font-weight: 500;
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+}
+
+.esqueceu {
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+.image-login{
+width: 200px;
+height: 200px;
+overflow: hidden;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid #ccc;
+align-self: center;
+border-radius: 12px;
+}
+
+.image-login img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.insert{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-radius: 10px;
+    background-color: hwb(157 31% 31%);
+}
